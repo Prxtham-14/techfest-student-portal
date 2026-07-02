@@ -1,7 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-    border: 2px solid black;
     padding: 0px;
     margin: 0px;
     width: 1vp;
@@ -294,5 +293,163 @@ footer{
 #regi-main .in:hover{
     zoom: 102%;
     background-color:hsl(55, 77%, 55%);
+    
+}
+
+
+#gallery #mems{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 250px;
+    background-image: url(images/mems.jpeg);
+    background-size: contain;
+    color: hsl(55, 87%, 55%);
+    text-shadow: 2px 2px black;
+
+}
+#gallery #mems h1{
+    font-size: 33px;
+}
+#gallery #mems p{
+    font-size: 27px;
+    
+}
+#gallery #mems2{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+#gallery #mems3{
+    padding: 20px;
+    padding-top: 10px;
+    margin: 10px;
+    margin-top: 00px;
+    border-radius: 20px;
+}
+#gallery #mems4 h2{
+    font-size: 28px;
+    margin-left: 30px;
+}
+#gallery #mems4 #mems3{
+    border:2px solid black;
+}
+#gallery #mems3 .memgallery{
+    height: 350px;
+    width: 100%;
+    text-align: center;
+}
+#gallery #mems3 .memgallery h3{
+    font-size: 20px;
+}
+#gallery #mems3 img{
+    height: 250px;
+    width: 31%;
+    padding: 10px;
+    background-color: black;
+}
+#mems5{
+    border: 2px solid black;
+    padding: 20px;
+}
+#mems5 .cards{
+    
+    display: inline-block;
+    vertical-align: top;
+    height: 400px;
+    text-align: center;
+}
+#mems5 img{
+    height: 200px;
+    border: 2px solid black;
+    width: 98%;
+}
+#mems5 #card2{
+    box-sizing: border-box;
+    text-align:left;
+    width: 29%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px solid  black;
+    background-color: hsl(56, 16%, 81%);
+}
+#mems5 #card1{
+    width: 70%;
+}
+#mems5 #card2 h2{
+    margin-bottom: 50px;
+    
+    
+}
+#gallery #st{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+#gallery #st .stcard{
+    box-sizing: border-box;
+    border: 2px solid black;
+    display: inline-block;
+    width: 32%;
+    text-align: left;
+    padding: 10px;
+}
+#gallery #st .stcard img{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    
+    
+}
+#gallery #mems6{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsl(56, 16%, 81%);
+}
+#contact #dets{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#contact #dets .cards{
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+#contact #form1{
+    border: 2px solid black;
+    margin: 20px;
+    height: 300px;
+    padding: 20px;
+    padding-top: 5px;
+    display: inline-block;
+    width: 30%;
+
+}
+#contact #form1 .in{
+    box-sizing: border-box;
+    margin: 10px;
+    margin-top: 0;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    width: 98%;
+    
+}
+#contact #form1 #message{
+    height: 80px;
+}
+#contact #rights{
+    display: inline-block;
+    vertical-align: top;
+    width: 33.3%;
+    margin-right: 0;
+    margin-left: 15.15%;
     
 }

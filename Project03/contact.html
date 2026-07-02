@@ -6,7 +6,7 @@
     <title>contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="contact">
      <header>
             <div><img src="images/logo_wipe_bg.png" alt="logo" id="logo"  >
             <h1>
@@ -19,10 +19,11 @@
                 <li><a href="register.html">Register</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul></nav>
-    </header> <hr>
+    </header>
+    <div id="dets">
     <h1>Contact us:</h1>
     <p>We're here to help! Contact the TechFest 2026 organizing team for event details, registration assistance, sponsorship opportunities, or any other inquiries.</p>\
-<section>
+<section class="cards">
     <h2>📍Contact information </h2>
     <div>
         <h3>College Name</h3>
@@ -64,7 +65,7 @@
     </div>
 </section>
 
-<section>
+<section class="cards">
     <H2>Organizing Comittee</H2>
     <div>
         <h3>Faculty Coordinator</h3>
@@ -91,24 +92,43 @@
         </p>
     </div>
 
-    <form action="">
-        <label for="name">Name:</label>
-        <input type="text" id="name" placeholder="Enter your name"> <br>
-
-        <label for="email">Email:</label>
-        <input type="text" id="email" placeholder="Enter your Email"> <br>
-
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" placeholder="subject"> <br>
-
-        <textarea name="message" id="message" placeholder="Enter your message here"></textarea>
-    </form>
+</section></div>
 <footer>
+        <section id="rights">
+        <h3>
+            Phone
+        </h3>
+        <p>
+            +91 98765 43210
+        </p>
+        <h3>
+            Email
+        </h3>
+        <p>
+            techfest2026@sunridge.edu
+        </p>
+        <h3>   
+            Office Hours
+        </h3>
+        <p>
+            Monday - Friday <br>
+            9:00 AM - 5:00 PM <br>
+        </p>
         © 2026 Sunridge College of Engineering. <br>
         All Rights Reserved. <br>
         TechFest 2026 - Innovate • Inspire • Impact <br>
-    </footer>
+    </section>
+    <section id="form1"><form action="">
+        <h2>Lets get in touch</h2>
+        <input type="text" id="name" placeholder="Name" class="in"> <br>
 
-</section>
+        <input type="text" id="email" placeholder="Email" class="in"> <br>
+
+        <input type="text" id="subject" placeholder="subject" class="in"> <br>
+
+        <textarea name="message" id="message" placeholder="Enter your message here" class="in"></textarea>
+    </form></section></footer>
+
+
 </body>
 </html>
