@@ -1,0 +1,73 @@
+#Whole{
+    font-family:cursive ;
+    background-color:#0B0F19 ;
+    color:#E2E8F0 ;
+    box-sizing: border-box;
+}
+
+#Content-Wrapper {
+    clear: both;
+}
+
+hr {
+    clear: both; 
+}
+.G1{
+    color: #3B82F6;
+}
+.Cards{
+    background-color:#1f3c65 ;
+    width: 25%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40%;
+    
+}
+#logo{
+    height: 120px;
+    width: 200px;
+    border-radius: 2000px;
+    margin-top: 10px;
+    float: right;
+    padding: 20px;
+
+    
+}
+#intro{
+    float: left;
+
+}
+.img{
+    width:100%;
+    height: 150px;
+    
+}
+#card1{
+    width:32%;
+
+    float: left;
+    box-sizing: border-box;
+    margin-right: 2px;
+    border: #E2E8F0 5px solid;
+    
+}
+#card2{
+    float: right;
+    width: 32%;
+    border: #E2E8F0 5px solid ;
+
+}
+#card3{
+    width: 70%;
+    border: #E2E8F0 5px solid ;
+    height: 30%;
+    
+
+}
+#left{
+    float: left;
+    
+    width: 50%;
+    border-right: #E2E8F0 1px solid;
+   
+}
